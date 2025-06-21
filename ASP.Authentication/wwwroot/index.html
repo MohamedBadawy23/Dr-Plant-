@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant DR - Plant Disease Recognition</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="profile-icon">
+                    <img src="images/profile-placeholder.png" alt="Profile" id="profileImage">
+                </div>
+                <div class="logo">
+                    <img src="images/logo.png" alt="Plant DR Logo" class="logo-img">
+                </div>
+                <div class="info-icon">
+                    <span class="material-icons">info</span>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="features-grid">
+                <div class="feature-card" onclick="location.href='/upload'">
+                    <div class="icon">
+                        <span class="material-icons">cloud_upload</span>
+                    </div>
+                    <h3>Upload Image</h3>
+                </div>
+
+                <div class="feature-card" onclick="location.href='/diseases'">
+                    <div class="icon">
+                        <span class="material-icons">local_hospital</span>
+                    </div>
+                    <h3>Common Diseases</h3>
+                </div>
+
+                <div class="feature-card" onclick="location.href='/report'">
+                    <div class="icon">
+                        <span class="material-icons">warning</span>
+                    </div>
+                    <h3>Report a Problem</h3>
+                </div>
+
+                <div class="feature-card" onclick="location.href='/tips'">
+                    <div class="icon">
+                        <span class="material-icons">lightbulb</span>
+                    </div>
+                    <h3>Fertilizers Usage Tips</h3>
+                </div>
+            </div>
+
+            <div class="eco-image">
+                <img src="images/eco-globe.png" alt="Eco-friendly globe with plants" class="globe-img">
+            </div>
+
+            <div class="chat-bot">
+                <div class="chat-icon">
+                    <span class="material-icons">smart_toy</span>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="navigation-bar">
+                <div class="nav-item">
+                    <span class="material-icons">menu</span>
+                </div>
+                <div class="nav-item">
+                    <span>dr-plant.vercel.app</span>
+                </div>
+                <div class="nav-item">
+                    <span class="material-icons">refresh</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html> 
